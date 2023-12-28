@@ -1,0 +1,92 @@
+#{
+    margin: o;
+    padding:0;
+}
+.container{
+    margin:0 auto;
+    max-width: 1400px;
+    height: 96%;
+}
+
+.header_area{
+    background-color: aquamarine;
+}
+
+.header{
+    display: flex;
+    height: 133px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    list-style:none;
+    display:inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+}
+button{
+    padding: 10px;
+     background: #91D497;
+     border: 1px solid #000000;
+     border-radius: 3px;
+}
+button a{
+    text-decoration: none;
+}
+.banner-area{
+    position: relative;
+    background-image: url(img/about.png);
+    background-size: cover;
+    height: 616px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; text-align: center;
+}
+.principal-area{
+    top: 50px;
+    background-color:#DFE8E6;
+}
+.principal{
+    display: flex;
+}
+
+.better-area{
+    top: 50px;
+    background-color: rgb(129, 88, 95);
+}
+.better{
+    display: flex;
+}
+
+.Services-text{
+    text-align: center; 
+}
+.Philosophy-area{
+    top: 50px;
+    background-color: #CCCCFF;
+    text-align: center;
+}
+.Philosophy{
+    display: flex; 
+}
+.men-area{
+    top: 50px;
+    background-color: #afaff0;
+    text-align: center;
+}
+
+
+.men-text-area{
+    display: flex;
+}
+
+
+.thetherapymind{
+    background-color: #afaff0;
+}
